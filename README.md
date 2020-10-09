@@ -6,7 +6,7 @@ In this project, I:
 2. Preprocess the metadata for the proof of concept (pandas)
 3. Load and Preprocess Images (cv2, p_tqdm for multiprocessing)
 4. Model the data (keras, tensorflow, gpu, CNN)
-5. Tune the number of epochas based on learning curves
+5. Tune the number of epochs based on learning curves
 6. Discuss the results and problems
 
 From the modeling, we were able to achieve an **accuracy of around 73%**, which is better than the baseline of ~60% (from always guessing entertainment pre-oversampling .242606/(.242606+.157641)). However, there are **two major problems that preclude a higher accuracy**:
